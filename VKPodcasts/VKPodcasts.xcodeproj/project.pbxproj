@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95DC8A2F2512977100491545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A2E2512977100491545 /* AppDelegate.swift */; };
+		95DC8A332512977100491545 /* PodcastInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A322512977100491545 /* PodcastInitialViewController.swift */; };
+		95DC8A382512977300491545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DC8A372512977300491545 /* Assets.xcassets */; };
+		95DC8A3B2512977300491545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DC8A392512977300491545 /* LaunchScreen.storyboard */; };
+		95DC8A44251298AC00491545 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95DC8A43251298AC00491545 /* SnapKit */; };
+		95DC8A4F251299B000491545 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A49251299B000491545 /* Strings.swift */; };
+		95DC8A50251299B000491545 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A4A251299B000491545 /* Colors.swift */; };
+		95DC8A51251299B000491545 /* Tappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A4B251299B000491545 /* Tappable.swift */; };
+		95DC8A53251299B000491545 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A4D251299B000491545 /* UIView+Animation.swift */; };
+		95DC8A572512A1EC00491545 /* NewPodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A562512A1EC00491545 /* NewPodcastViewController.swift */; };
+		95DC8A5A2512A26500491545 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A592512A26500491545 /* InputView.swift */; };
+		95DC8A5C2512A2E000491545 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A5B2512A2E000491545 /* UIImage+Color.swift */; };
+		95DC8A5F2512B28300491545 /* TPKeyboardAvoiding in Frameworks */ = {isa = PBXBuildFile; productRef = 95DC8A5E2512B28300491545 /* TPKeyboardAvoiding */; };
+		95DC8A612512B34700491545 /* AddPodcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A602512B34700491545 /* AddPodcastView.swift */; };
+		95DC8A632512BC5E00491545 /* ElementBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A622512BC5E00491545 /* ElementBuilder.swift */; };
+		95DC8A652512D21300491545 /* CheckpointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A642512D21300491545 /* CheckpointView.swift */; };
+		95DC8A672512DA2F00491545 /* PlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A662512DA2F00491545 /* PlaceholderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95DC8A2B2512977100491545 /* VKPodcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPodcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95DC8A2E2512977100491545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95DC8A322512977100491545 /* PodcastInitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastInitialViewController.swift; sourceTree = "<group>"; };
+		95DC8A372512977300491545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95DC8A3A2512977300491545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95DC8A3C2512977300491545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95DC8A49251299B000491545 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = "Extensions+Helpers/Strings.swift"; sourceTree = "<group>"; };
+		95DC8A4A251299B000491545 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Colors.swift; path = "Extensions+Helpers/Colors.swift"; sourceTree = "<group>"; };
+		95DC8A4B251299B000491545 /* Tappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tappable.swift; path = "Extensions+Helpers/Tappable.swift"; sourceTree = "<group>"; };
+		95DC8A4D251299B000491545 /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Animation.swift"; path = "Extensions+Helpers/UIView+Animation.swift"; sourceTree = "<group>"; };
+		95DC8A562512A1EC00491545 /* NewPodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPodcastViewController.swift; sourceTree = "<group>"; };
+		95DC8A592512A26500491545 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		95DC8A5B2512A2E000491545 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIImage+Color.swift"; path = "Extensions+Helpers/UIImage+Color.swift"; sourceTree = "<group>"; };
+		95DC8A602512B34700491545 /* AddPodcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPodcastView.swift; sourceTree = "<group>"; };
+		95DC8A622512BC5E00491545 /* ElementBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementBuilder.swift; sourceTree = "<group>"; };
+		95DC8A642512D21300491545 /* CheckpointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckpointView.swift; sourceTree = "<group>"; };
+		95DC8A662512DA2F00491545 /* PlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95DC8A282512977100491545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC8A5F2512B28300491545 /* TPKeyboardAvoiding in Frameworks */,
+				95DC8A44251298AC00491545 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95DC8A222512977100491545 = {
+			isa = PBXGroup;
+			children = (
+				95DC8A2D2512977100491545 /* VKPodcasts */,
+				95DC8A2C2512977100491545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95DC8A2C2512977100491545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95DC8A2B2512977100491545 /* VKPodcasts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95DC8A2D2512977100491545 /* VKPodcasts */ = {
+			isa = PBXGroup;
+			children = (
+				95DC8A5525129A8F00491545 /* Views */,
+				95DC8A482512999500491545 /* Extensions+Helpers */,
+				95DC8A2E2512977100491545 /* AppDelegate.swift */,
+				95DC8A372512977300491545 /* Assets.xcassets */,
+				95DC8A392512977300491545 /* LaunchScreen.storyboard */,
+				95DC8A3C2512977300491545 /* Info.plist */,
+			);
+			path = VKPodcasts;
+			sourceTree = "<group>";
+		};
+		95DC8A482512999500491545 /* Extensions+Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				95DC8A4A251299B000491545 /* Colors.swift */,
+				95DC8A49251299B000491545 /* Strings.swift */,
+				95DC8A4B251299B000491545 /* Tappable.swift */,
+				95DC8A4D251299B000491545 /* UIView+Animation.swift */,
+				95DC8A5B2512A2E000491545 /* UIImage+Color.swift */,
+			);
+			name = "Extensions+Helpers";
+			sourceTree = "<group>";
+		};
+		95DC8A5525129A8F00491545 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95DC8A582512A24A00491545 /* Elements */,
+				95DC8A322512977100491545 /* PodcastInitialViewController.swift */,
+				95DC8A562512A1EC00491545 /* NewPodcastViewController.swift */,
+				95DC8A662512DA2F00491545 /* PlaceholderViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		95DC8A582512A24A00491545 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				95DC8A592512A26500491545 /* InputView.swift */,
+				95DC8A602512B34700491545 /* AddPodcastView.swift */,
+				95DC8A622512BC5E00491545 /* ElementBuilder.swift */,
+				95DC8A642512D21300491545 /* CheckpointView.swift */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95DC8A2A2512977100491545 /* VKPodcasts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95DC8A3F2512977300491545 /* Build configuration list for PBXNativeTarget "VKPodcasts" */;
+			buildPhases = (
+				95DC8A272512977100491545 /* Sources */,
+				95DC8A282512977100491545 /* Frameworks */,
+				95DC8A292512977100491545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKPodcasts;
+			packageProductDependencies = (
+				95DC8A43251298AC00491545 /* SnapKit */,
+				95DC8A5E2512B28300491545 /* TPKeyboardAvoiding */,
+			);
+			productName = VKPodcasts;
+			productReference = 95DC8A2B2512977100491545 /* VKPodcasts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95DC8A232512977100491545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Hanna Yakusevych";
+				TargetAttributes = {
+					95DC8A2A2512977100491545 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 95DC8A262512977100491545 /* Build configuration list for PBXProject "VKPodcasts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95DC8A222512977100491545;
+			packageReferences = (
+				95DC8A42251298AC00491545 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				95DC8A5D2512B28300491545 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */,
+			);
+			productRefGroup = 95DC8A2C2512977100491545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95DC8A2A2512977100491545 /* VKPodcasts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95DC8A292512977100491545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC8A3B2512977300491545 /* LaunchScreen.storyboard in Resources */,
+				95DC8A382512977300491545 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95DC8A272512977100491545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95DC8A332512977100491545 /* PodcastInitialViewController.swift in Sources */,
+				95DC8A672512DA2F00491545 /* PlaceholderViewController.swift in Sources */,
+				95DC8A50251299B000491545 /* Colors.swift in Sources */,
+				95DC8A652512D21300491545 /* CheckpointView.swift in Sources */,
+				95DC8A5C2512A2E000491545 /* UIImage+Color.swift in Sources */,
+				95DC8A572512A1EC00491545 /* NewPodcastViewController.swift in Sources */,
+				95DC8A4F251299B000491545 /* Strings.swift in Sources */,
+				95DC8A2F2512977100491545 /* AppDelegate.swift in Sources */,
+				95DC8A5A2512A26500491545 /* InputView.swift in Sources */,
+				95DC8A632512BC5E00491545 /* ElementBuilder.swift in Sources */,
+				95DC8A53251299B000491545 /* UIView+Animation.swift in Sources */,
+				95DC8A51251299B000491545 /* Tappable.swift in Sources */,
+				95DC8A612512B34700491545 /* AddPodcastView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95DC8A392512977300491545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DC8A3A2512977300491545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95DC8A3D2512977300491545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95DC8A3E2512977300491545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95DC8A402512977300491545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K882HZY272;
+				INFOPLIST_FILE = VKPodcasts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanyakus.VKPodcasts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95DC8A412512977300491545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K882HZY272;
+				INFOPLIST_FILE = VKPodcasts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanyakus.VKPodcasts;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95DC8A262512977100491545 /* Build configuration list for PBXProject "VKPodcasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC8A3D2512977300491545 /* Debug */,
+				95DC8A3E2512977300491545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95DC8A3F2512977300491545 /* Build configuration list for PBXNativeTarget "VKPodcasts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95DC8A402512977300491545 /* Debug */,
+				95DC8A412512977300491545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		95DC8A42251298AC00491545 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		95DC8A5D2512B28300491545 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/michaeltyson/TPKeyboardAvoiding";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		95DC8A43251298AC00491545 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95DC8A42251298AC00491545 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		95DC8A5E2512B28300491545 /* TPKeyboardAvoiding */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95DC8A5D2512B28300491545 /* XCRemoteSwiftPackageReference "TPKeyboardAvoiding" */;
+			productName = TPKeyboardAvoiding;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 95DC8A232512977100491545 /* Project object */;
+}
