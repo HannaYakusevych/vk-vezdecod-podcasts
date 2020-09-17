@@ -126,9 +126,8 @@ extension NewPodcastViewController: AddPodcastViewDelegate {
     }
     
     func editAudio() {
-        // TODO: Open edit screen
-        let view = PlaceholderViewController()
-        present(view, animated: true, completion: nil)
+        let view = EditPodcastViewController()
+        navigationController?.pushViewController(view, animated: true)
     }
 }
 

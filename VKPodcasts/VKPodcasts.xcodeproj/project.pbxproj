@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95A73CDD25135BC600DDD2C0 /* EditPodcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A73CDC25135BC600DDD2C0 /* EditPodcastViewController.swift */; };
 		95DC8A2F2512977100491545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A2E2512977100491545 /* AppDelegate.swift */; };
 		95DC8A332512977100491545 /* PodcastInitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC8A322512977100491545 /* PodcastInitialViewController.swift */; };
 		95DC8A382512977300491545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95DC8A372512977300491545 /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		95A73CDC25135BC600DDD2C0 /* EditPodcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPodcastViewController.swift; sourceTree = "<group>"; };
 		95DC8A2B2512977100491545 /* VKPodcasts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKPodcasts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95DC8A2E2512977100491545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95DC8A322512977100491545 /* PodcastInitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastInitialViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				95DC8A322512977100491545 /* PodcastInitialViewController.swift */,
 				95DC8A562512A1EC00491545 /* NewPodcastViewController.swift */,
 				95DC8A662512DA2F00491545 /* PlaceholderViewController.swift */,
+				95A73CDC25135BC600DDD2C0 /* EditPodcastViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				95DC8A5C2512A2E000491545 /* UIImage+Color.swift in Sources */,
 				95DC8A572512A1EC00491545 /* NewPodcastViewController.swift in Sources */,
 				95DC8A4F251299B000491545 /* Strings.swift in Sources */,
+				95A73CDD25135BC600DDD2C0 /* EditPodcastViewController.swift in Sources */,
 				95DC8A2F2512977100491545 /* AppDelegate.swift in Sources */,
 				95DC8A5A2512A26500491545 /* InputView.swift in Sources */,
 				95DC8A632512BC5E00491545 /* ElementBuilder.swift in Sources */,

@@ -147,6 +147,9 @@ final class AddPodcastView: UIView {
             maker.top.leading.equalToSuperview()
             maker.height.width.equalTo(48)
         }
+        imageView.enableTapping { [weak self] in
+            self?.delegate?.uploadAudio()
+        }
         
         infoView.addSubview(contentTitleLabel)
         contentTitleLabel.snp.makeConstraints { maker in
